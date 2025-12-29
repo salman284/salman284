@@ -37,12 +37,6 @@
 
 </div>
 
-## 🌐 Socials:
-<div align="center">
-
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/Salman_Alam_Ostagar) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/salman_sks_99) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/sk-salman-alam-ostagar-8702a4290) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/AlamOstaga49941) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:salmanalamostagar@gmail.com) 
-
-</div>
 
 # 💻 Tech Stack:
 <div align="center">
@@ -64,6 +58,47 @@
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=salman284&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+
+## 🤝 **Connect with Me**
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/sk-salman-alam-ostagar-8702a4290/" target="_blank">
+<img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="margin: 0 15px;"/>
+</a>
+<a href="https://instagram.com/salman_sks_99" target="_blank">
+<img height="50" width="50" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" style="margin: 0 15px;"/>
+</a>
+<a href="https://leetcode.com/u/Salman999/" target="_blank">
+<img height="50" width="50" src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" style="margin: 0 15px;"/>
+</a>
+<a href="https://www.geeksforgeeks.org/profile/salmanalaul8t" target="_blank">
+<img height="50" width="50" src="https://img.icons8.com/color/96/GeeksforGeeks.png" style="margin: 0 15px;"/>
+</a>
+<a href="mailto:salmanalamostagar@gmail.com" target="_blank">
+<img height="50" width="50" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" style="margin: 0 15px;"/>
+</a>
+<a href="https://www.facebook.com/profile.php?id=100050239430862" target="_blank">
+<img height="50" width="50" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" style="margin: 0 15px;"/>
+</a>
+<a href="https://x.com/AlamOstaga49941" target="_blank">
+<img height="50" width="50" src="https://www.shutterstock.com/shutterstock/photos/2406095449/display_1500/stock-vector-new-logo-brand-twitter-with-x-shaped-graphics-white-sign-on-black-background-vector-2406095449.jpg" style="margin: 0 15px;"/>
+</a>
+</div>
+
+<div align="center">
+<br>
+<h3>📱 <strong>Let's Connect & Build Something Amazing Together!</strong></h3>
+<p>
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+<img src="https://img.shields.io/badge/Instagram-Follow-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"/> 
+<img src="https://img.shields.io/badge/LeetCode-Solve-FFA116?style=flat-square&logo=leetcode&logoColor=white" alt="LeetCode"/>
+</p>
+</div>
+
+---
+
+<div align="center">
 
 ### ✍️ Random Dev Quote
 
