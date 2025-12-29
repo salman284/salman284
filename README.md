@@ -1,7 +1,6 @@
-## Hi there 👋
 # 💫 About Me:
 🎓 B.Tech in Computer Science and Engineering | Supreme Knowledge Foundation Group of Institutions<br>🔍 Passionate about solving real-world problems through technology | Aspiring Software Developer | AI & ML Enthusiast<br><br>I’m currently pursuing my B.Tech in Computer Science and Engineering, where I’m building a strong foundation in programming, data structures, algorithms, and software development. I'm particularly interested in areas like Artificial Intelligence and Full Stack Development.<br><br>Over the course of my academic journey, I’ve worked on projects that have strengthened my problem-solving abilities and exposed me to collaborative team environments. I enjoy learning new technologies, participating in coding challenges, and exploring innovative solutions to technical problems.<br><br>🌱 Learning & Growing in:<br><br>🔸C/C++, Java, Python<br><br>🔸Web Development (HTML, CSS, JavaScript, React)<br><br>🔸Git & GitHub<br><br>🚀 Looking for:<br><br>🔸Internship or entry-level opportunities in software development, or web technologies<br><br>🔸Networking with professionals, mentors, and fellow tech enthusiasts
-
+---
 ## 🏆 **Major Achievements**
 
 <div align="center">
@@ -16,7 +15,9 @@
 </td>
 </tr>
 </table>
+
 </div>
+
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/salman_sks_99) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/salman_sks_99) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/sk-salman-alam-ostagar-8702a4290) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/AlamOstagar49941) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:salmanalamostagar@gmail.com) 
 
