@@ -82,7 +82,7 @@
 <img height="50" width="50" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" style="margin: 0 15px;"/>
 </a>
 <a href="https://x.com/AlamOstaga49941" target="_blank">
-<img height="50" width="50" src="https://www.shutterstock.com/shutterstock/photos/2406095449/display_1500/stock-vector-new-logo-brand-twitter-with-x-shaped-graphics-white-sign-on-black-background-vector-2406095449.jpg" style="margin: 0 15px;"/>
+<img height="50" width="50" src="https://img.magnific.com/free-vector/twitter-app-new-logo-x-black-background_1017-45425.jpg?semt=ais_test_b&w=740&q=80" style="margin: 0 15px;"/>
 </a>
 </div>
 
