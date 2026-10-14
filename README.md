@@ -108,7 +108,7 @@
 <a href="https://www.linkedin.com/in/sk-salman-alam-ostagar-8702a4290/" target="_blank">
 <img height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="margin: 0 15px;"/>
 </a>
-<a href="https://instagram.com/salman_sks_99" target="_blank">
+<a href="https://instagram.com/salman_an21" target="_blank">
 <img height="50" width="50" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" style="margin: 0 15px;"/>
 </a>
 <a href="https://leetcode.com/u/Salman999/" target="_blank">
@@ -124,7 +124,7 @@
 <img height="50" width="50" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" style="margin: 0 15px;"/>
 </a>
 <a href="https://x.com/AlamOstaga49941" target="_blank">
-<img height="50" width="50" src="https://img.magnific.com/free-vector/twitter-app-new-logo-x-black-background_1017-45425.jpg?semt=ais_test_b&w=740&q=80" style="margin: 0 15px;"/>
+<img height="50" width="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/twitterx--v2.png" style="margin: 0 15px; background:#000; border-radius:8px; padding:4px;"/>
 </a>
 </div>
 
@@ -146,7 +146,7 @@
 
 <div align="center">
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 </div>
 
@@ -154,7 +154,7 @@
 
 <div align="center">
 
-![](https://github-contributor-stats.vercel.app/api?username=salman284&limit=5&theme=dark&combine_all_yearly_contributions=true)
+![](https://github-contributor-stats.vercel.app/api?username=salman284&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)
 
 <br><br>
 **Thanks for visiting my profile! Let's build something amazing together! 🚀**
