@@ -78,15 +78,28 @@
 
 <div align="center">
 
-![](https://github-readme-stats.vercel.app/api?username=salman284&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=salman284&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=salman284&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<a href="https://github.com/salman284">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=salman284&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=salman284&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact"/>
+</a>
+
+<br/>
+
+![](https://streak-stats.demolab.com/?user=salman284&theme=tokyonight&hide_border=true)<br/>
+
+[![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=salman284&theme=tokyonight)](https://github.com/salman284)
+[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=salman284&theme=tokyonight)](https://github.com/salman284)
+
+<br/>
+
+[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=salman284&theme=tokyonight)](https://github.com/salman284)
 
 </div>
 
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=salman284&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+![](https://github-profile-trophy.vercel.app/?username=salman284&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4)
+
 
 ## 🤝 **Connect with Me**
 
