@@ -28,9 +28,15 @@
 <tr>
 <td align="center" width="300">
 <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-trophy-achievements-flaticons-lineal-color-flat-icons-2.png"/>
-<br><strong>🏆 Infosys Global Hackathon</strong>
+<br><strong>🏆 Infosys Global Hackathon 2025</strong>
 <br><em><strong>Finalist</strong></em>
-<br><sub>Competed among thousands of developers worldwide</sub>
+<br><sub>Top 33 of 1,942 teams (top 1.6%) — Infosys</sub>
+</td>
+<td align="center" width="300">
+<img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-trophy-achievements-flaticons-lineal-color-flat-icons-2.png"/>
+<br><strong>💎 Build With Gemini Hackathon 2025</strong>
+<br><em><strong>Finalist</strong></em>
+<br><sub>University of Delhi</sub>
 </td>
 </tr>
 </table>
