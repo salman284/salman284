@@ -2,8 +2,13 @@ name: Generate GitHub Profile Stats
 
 on:
   schedule:
-    # Run twice a day (at 00:00 and 12:00 UTC)
-    - cron: "0 0,12 * * *"
+    # Run every 6 hours automatically
+    - cron: "0 */6 * * *"
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'profile/**'
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
 jobs:
