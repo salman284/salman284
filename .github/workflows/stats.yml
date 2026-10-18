@@ -1,0 +1,49 @@
+name: Generate GitHub Profile Stats
+
+on:
+  schedule:
+    # Run twice a day (at 00:00 and 12:00 UTC)
+    - cron: "0 0,12 * * *"
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create profile directory
+        run: mkdir -p profile
+
+      - name: Generate Streak Stats (Includes Private Contributions)
+        uses: DenverCoder1/github-readme-streak-stats@v1
+        with:
+          options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true
+          path: profile/streak.svg
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
+
+      - name: Generate GitHub Stats Card
+        uses: soulteary/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: 'username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true'
+          path: profile/stats.svg
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
+
+      - name: Generate Top Languages Card
+        uses: soulteary/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: 'username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=tokyonight&hide_border=true'
+          path: profile/top-langs.svg
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
+
+      - name: Commit and push generated SVGs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update GitHub profile stats [skip ci]"
+          file_pattern: profile/*.svg

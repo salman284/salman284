@@ -79,13 +79,13 @@
 <div align="center">
 
 <a href="https://github.com/salman284">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=salman284&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=salman284&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact"/>
+  <img height="180em" src="./profile/stats.svg"/>
+  <img height="180em" src="./profile/top-langs.svg"/>
 </a>
 
 <br/>
 
-![](https://streak-stats.demolab.com/?user=salman284&theme=tokyonight&hide_border=true)<br/>
+![](./profile/streak.svg)<br/>
 
 [![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=salman284&theme=tokyonight)](https://github.com/salman284)
 [![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=salman284&theme=tokyonight)](https://github.com/salman284)
