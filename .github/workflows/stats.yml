@@ -45,6 +45,7 @@ jobs:
       - name: Fetch Profile Views & Summary Cards
         run: |
           curl -s "https://komarev.com/ghpvc/?username=${{ github.repository_owner }}&label=Profile+Views&color=0e75b6&style=for-the-badge" -o profile/views.svg
+          curl -s "https://komarev.com/ghpvc/?username=${{ github.repository_owner }}&label=PROFILE+VIEWS&style=flat-square&color=brightgreen" -o profile/views-bottom.svg
           curl -s "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=${{ github.repository_owner }}&theme=tokyonight" -o profile/repos-per-language.svg
           curl -s "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${{ github.repository_owner }}&theme=tokyonight" -o profile/most-commit-language.svg
           curl -s "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${{ github.repository_owner }}&theme=tokyonight" -o profile/profile-details.svg

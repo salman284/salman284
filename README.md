@@ -159,7 +159,7 @@
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=salman284&label=PROFILE+VIEWS&style=flat-square&color=brightgreen" alt="Profile Views"/>
+<img src="./profile/views-bottom.svg" alt="Profile Views"/>
 
 <br>
 
