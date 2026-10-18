@@ -42,6 +42,12 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.PROFILE_STATS_TOKEN }}
 
+      - name: Fetch Profile Summary Cards
+        run: |
+          curl -s "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=${{ github.repository_owner }}&theme=tokyonight" -o profile/repos-per-language.svg
+          curl -s "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${{ github.repository_owner }}&theme=tokyonight" -o profile/most-commit-language.svg
+          curl -s "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${{ github.repository_owner }}&theme=tokyonight" -o profile/profile-details.svg
+
       - name: Commit and push generated SVGs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

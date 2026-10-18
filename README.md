@@ -87,12 +87,12 @@
 
 ![](./profile/streak.svg)<br/>
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=salman284&theme=tokyonight)](https://github.com/salman284)
-[![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=salman284&theme=tokyonight)](https://github.com/salman284)
+[![](./profile/repos-per-language.svg)](https://github.com/salman284)
+[![](./profile/most-commit-language.svg)](https://github.com/salman284)
 
 <br/>
 
-[![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=salman284&theme=tokyonight)](https://github.com/salman284)
+[![](./profile/profile-details.svg)](https://github.com/salman284)
 
 </div>
 
