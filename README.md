@@ -5,7 +5,7 @@
 
 ### 🚀 **Aspiring Web Developer | Fullstack Enthusiast | AI/ML Explorer**
 <p>
-  <img src="https://komarev.com/ghpvc/?username=salman284&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="Profile Views"/>
+  <img src="./profile/views.svg" alt="Profile Views"/>
   <img src="https://img.shields.io/github/followers/salman284?label=Followers&style=for-the-badge&color=blue" alt="GitHub Followers"/>
   <img src="https://img.shields.io/github/stars/salman284?label=Stars&style=for-the-badge&color=yellow" alt="GitHub Stars"/>
 </p>
