@@ -5,9 +5,9 @@
 
 ### 🚀 **Aspiring Web Developer | Fullstack Enthusiast | AI/ML Explorer**
 <p>
-  <img src="./profile/views.svg" alt="Profile Views"/>
-  <img src="./profile/followers.svg" alt="GitHub Followers"/>
-  <img src="./profile/stars.svg" alt="GitHub Stars"/>
+  <img src="./profile/views.svg" alt="Profile Views" height="28"/>
+  <img src="./profile/followers.svg" alt="GitHub Followers" height="28"/>
+  <img src="./profile/stars.svg" alt="GitHub Stars" height="28"/>
 </p>
 
 <p>
