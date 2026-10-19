@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="131.20000" height="28" role="img" aria-label="FOLLOWERS: 2">
+<svg xmlns="http://www.w3.org/2000/svg" width="113.00000" height="28" role="img" aria-label="FOLLOWERS: 2">
   <title>FOLLOWERS: 2</title>
   <g shape-rendering="crispEdges">
-    <rect width="99.80000" height="28" fill="#555"/>
-    <rect x="99.80000" width="31.40000" height="28" fill="#0e75b6"/>
+    <rect width="85.70000" height="28" fill="#555"/>
+    <rect x="85.70000" width="27.30000" height="28" fill="#0e75b6"/>
   </g>
   <g fill="#fff" text-anchor="middle" text-rendering="geometricPrecision" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="10" letter-spacing="1.1">
-    <text x="49.90000" y="17.5" fill="#fff">FOLLOWERS</text>
-    <text x="115.50000" y="17.5" fill="#fff" font-weight="bold">2</text>
+    <text x="42.85000" y="17.5" fill="#fff">FOLLOWERS</text>
+    <text x="99.35000" y="17.5" fill="#fff" font-weight="bold">2</text>
   </g>
 </svg>
