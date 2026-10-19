@@ -50,6 +50,11 @@ jobs:
           curl -s "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${{ github.repository_owner }}&theme=tokyonight" -o profile/most-commit-language.svg
           curl -s "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${{ github.repository_owner }}&theme=tokyonight" -o profile/profile-details.svg
 
+      - name: Fetch Followers & Stars Badges
+        run: |
+          curl -s "https://img.shields.io/github/followers/${{ github.repository_owner }}?label=FOLLOWERS&style=flat-square&color=blue&labelColor=555555" -o profile/followers.svg
+          curl -s "https://img.shields.io/github/stars/${{ github.repository_owner }}?label=STARS&style=flat-square&color=yellow&labelColor=555555&affiliations=OWNER" -o profile/stars.svg
+
       - name: Commit and push generated SVGs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

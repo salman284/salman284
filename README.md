@@ -6,8 +6,8 @@
 ### 🚀 **Aspiring Web Developer | Fullstack Enthusiast | AI/ML Explorer**
 <p>
   <img src="./profile/views.svg" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/salman284?label=Followers&style=for-the-badge&color=blue" alt="GitHub Followers"/>
-  <img src="https://img.shields.io/github/stars/salman284?label=Stars&style=for-the-badge&color=yellow" alt="GitHub Stars"/>
+  <img src="./profile/followers.svg" alt="GitHub Followers"/>
+  <img src="./profile/stars.svg" alt="GitHub Stars"/>
 </p>
 
 <p>
