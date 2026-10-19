@@ -51,9 +51,78 @@ jobs:
           curl -s "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${{ github.repository_owner }}&theme=tokyonight" -o profile/profile-details.svg
 
       - name: Fetch Followers & Stars Badges
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
         run: |
-          curl -s "https://img.shields.io/github/followers/${{ github.repository_owner }}?label=FOLLOWERS&style=for-the-badge&color=blue&labelColor=555555" -o profile/followers.svg
-          curl -s "https://img.shields.io/github/stars/${{ github.repository_owner }}?label=STARS&style=for-the-badge&color=yellow&labelColor=555555&affiliations=OWNER" -o profile/stars.svg
+          python3 - <<'EOF'
+          import urllib.request, json, os
+
+          username = os.environ.get("GITHUB_REPOSITORY_OWNER", "salman284")
+          token    = os.environ.get("GH_TOKEN", "")
+
+          headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github.v3+json"}
+
+          # Fetch follower count
+          req = urllib.request.Request(f"https://api.github.com/users/{username}", headers=headers)
+          with urllib.request.urlopen(req) as r:
+              user = json.loads(r.read())
+          followers = user["followers"]
+
+          # Fetch total star count across all repos
+          stars = 0
+          page = 1
+          while True:
+              req = urllib.request.Request(
+                  f"https://api.github.com/users/{username}/repos?per_page=100&page={page}",
+                  headers=headers)
+              with urllib.request.urlopen(req) as r:
+                  repos = json.loads(r.read())
+              if not repos:
+                  break
+              stars += sum(repo["stargazers_count"] for repo in repos)
+              page += 1
+
+          def badge_svg(label, value, value_color):
+              """Generate an SVG matching the komarev.com for-the-badge style."""
+              font  = "Verdana,Geneva,DejaVu Sans,sans-serif"
+              fs    = 10
+              ls    = 1.1
+              h     = 28
+              pad   = 10
+
+              # Approximate text width: ~6.5px per char at font-size 10 + letter-spacing
+              def text_w(s):
+                  return len(s) * (fs * 0.62 + ls)
+
+              lw = text_w(label) + pad * 2
+              vw = text_w(str(value)) + pad * 2
+
+              total = lw + vw
+              lx = lw / 2
+              vx = lw + vw / 2
+
+              return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{total:.5f}" height="{h}" role="img" aria-label="{label}: {value}">
+            <title>{label}: {value}</title>
+            <g shape-rendering="crispEdges">
+              <rect width="{lw:.5f}" height="{h}" fill="#555"/>
+              <rect x="{lw:.5f}" width="{vw:.5f}" height="{h}" fill="{value_color}"/>
+            </g>
+            <g fill="#fff" text-anchor="middle" text-rendering="geometricPrecision" font-family="{font}" font-size="{fs}" letter-spacing="{ls}">
+              <text x="{lx:.5f}" y="17.5" fill="#fff">{label}</text>
+              <text x="{vx:.5f}" y="17.5" fill="#fff" font-weight="bold">{value}</text>
+            </g>
+          </svg>'''
+
+          os.makedirs("profile", exist_ok=True)
+
+          with open("profile/followers.svg", "w") as f:
+              f.write(badge_svg("FOLLOWERS", followers, "#0e75b6"))
+
+          with open("profile/stars.svg", "w") as f:
+              f.write(badge_svg("STARS", stars, "#d4a400"))
+
+          print(f"Generated: FOLLOWERS={followers}, STARS={stars}")
+          EOF
 
       - name: Commit and push generated SVGs
         uses: stefanzweifel/git-auto-commit-action@v5
